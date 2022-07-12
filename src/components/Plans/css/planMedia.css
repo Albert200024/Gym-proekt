@@ -1,0 +1,39 @@
+@media screen and (max-width:1200px){
+  .parograms-header span{
+     font-size: 2rem;
+  }
+  .plan{
+    width: 12rem;
+  }
+
+  .plan span {
+    font-size: 0.8rem;
+  }
+   
+}
+
+@media screen and (max-width:860px){
+    .parograms-header span{
+       font-size: 2rem;
+    }
+    .plan{
+      width: 9rem;
+    }
+  
+    .plan span {
+      font-size: 0.8rem;
+    }
+}
+
+@media screen and (max-width:768px){
+ .plans{
+    flex-direction: column;
+ }
+
+ .plans>:nth-child(2){
+     transform: none;
+ }
+ .plan{
+  width: 13rem;
+}
+}

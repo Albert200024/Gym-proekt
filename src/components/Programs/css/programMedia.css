@@ -1,0 +1,22 @@
+@media screen and (max-width:890px){
+    .parograms-header span{
+         font-size: 1.5rem;
+     }
+     .category span:nth-child(1){
+        font-size: 0.7rem;
+     }
+}
+
+@media screen and (max-width:768px){
+    .parograms-header{
+        flex-direction: column;
+        gap: 1rem;
+        font-size: x-large;
+        align-items: center;
+        justify-content: center;
+        margin-top: 2rem;
+    }
+    .program-categories{
+        flex-direction: column;
+    }
+}
